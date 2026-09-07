@@ -1,0 +1,18 @@
+[Unit]
+Description=Telegram Userbot Multi-User SaaS Platform
+After=network.target
+
+[Service]
+Type=simple
+User=sobirov
+WorkingDirectory=/home/sobirov/Desktop/UserBot
+EnvironmentFile=/home/sobirov/Desktop/UserBot/.env
+ExecStart=/home/sobirov/Desktop/UserBot/venv/bin/python3 bot/main.py
+Restart=always
+RestartSec=10
+LimitNOFILE=65536
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

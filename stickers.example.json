@@ -1,0 +1,18 @@
+{
+  "example_pack": {
+    "title": "Example Sticker Pack",
+    "short_name": "example_pack",
+    "count": 1,
+    "is_animated": false,
+    "is_video": false,
+    "stickers": [
+      {
+        "id": 1234567890123456,
+        "access_hash": 9876543210987654,
+        "file_reference_hex": "",
+        "emoji": "🎨",
+        "mime_type": "image/webp"
+      }
+    ]
+  }
+}

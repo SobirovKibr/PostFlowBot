@@ -1,0 +1,14 @@
+# ==============================================================================
+# Telegram Groups / Channels List (Example)
+# ==============================================================================
+# Add one group username or Chat ID per line.
+# Supported formats:
+#   1. Public username: @my_group_username
+#   2. Full link: https://t.me/my_group_username
+#   3. Supergroup / Channel ID: -1001234567890
+#
+# Note: Lines starting with '#' or empty lines are ignored.
+# ==============================================================================
+
+@example_group_1
+@example_group_2

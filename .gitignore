@@ -1,0 +1,51 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv
+venv/
+.venv
+.venv/
+env
+env/
+ENV
+ENV/
+
+# Sensitive credentials & Environment files
+.env
+.env.local
+
+# Telegram session files & Userbot user data
+*.session
+*.session-journal
+temp_*.session
+users/*
+!users/.gitkeep
+
+# Personal user text files & data
+groups.txt
+messages.txt
+stickers.json
+
+# Databases & runtime states
+saas_userbot.db
+saas_userbot.db*
+*.db
+*.sqlite
+*.sqlite3
+state.json
+
+# Logs
+*.log
+bot.log
+saas_userbot.log
+
+# IDE & Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
